@@ -36,8 +36,6 @@ YOLO = os.getenv("YOLO", "false").lower() in ("true", "1", "yes")
 SERPER_API_KEY = os.getenv("SERPER_API_KEY", "")
 SEARCH_REGION = os.getenv("SEARCH_REGION", "th")
 
-STUDENT_API_KEY = os.getenv("STUDENT_API_KEY", "")
-STUDENT_API_URL = os.getenv("STUDENT_API_URL", "https://student-mcp.dsplay.workers.dev")
 
 SCREENSHOTS_DIR = os.path.join(os.path.dirname(__file__), "screenshots")
 os.makedirs(SCREENSHOTS_DIR, exist_ok=True)
